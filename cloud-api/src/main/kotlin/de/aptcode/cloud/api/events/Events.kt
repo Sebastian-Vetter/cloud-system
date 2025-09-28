@@ -1,0 +1,16 @@
+package de.aptcode.cloud.api.events
+
+enum class Events {
+
+    START_SERVER,
+    STOP_SERVER,
+    RESTART_SERVER,
+    DELETE_SERVER,
+    CREATE_SERVER_GROUP,
+    DELETE_SERVER_GROUP,
+    HEARTBEAT,
+    WORKER_AUTHENTICATION,
+    WORKER_CONNECTED,
+    WORKER_DISCONNECTED,
+
+}
