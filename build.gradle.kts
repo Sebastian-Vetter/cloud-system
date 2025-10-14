@@ -31,6 +31,7 @@ subprojects {
         implementation("org.jline:jline:3.25.0") //Console Handler
         implementation("io.netty:netty-all:4.1.107.Final") //Socket Handler
         implementation("org.mongodb:mongodb-driver-sync:4.11.0") //Database Handler
+        testImplementation("io.mockk:mockk:1.13.8")
         testImplementation(kotlin("test"))
     }
 

@@ -1,0 +1,23 @@
+package de.aptcode.cloud.api.services
+
+import de.aptcode.cloud.api.utils.ConsoleState
+import org.jline.reader.Parser
+import org.jline.terminal.TerminalBuilder
+
+interface IConsoleService {
+
+    //parameters
+    val terminal: TerminalBuilder
+    val parser: Parser
+    val state: ConsoleState
+
+    // console booting func
+    fun boot(): Boolean
+
+    // console exiting func
+    fun exit(): Boolean
+
+    // console updating func
+    fun update(): Boolean
+
+}

@@ -1,7 +1,7 @@
 package de.aptcode.cloud.api.services
 import de.aptcode.cloud.api.data.ServerVersionData
 
-interface WorkerService {
+interface IWorkerService {
     // Class parameters
     val workerId: String
     val ip: String

@@ -1,6 +1,6 @@
 package de.aptcode.cloud.api.services
 
-interface CallbackService<T> {
+interface ICallbackService<T> {
 
     fun execute(result: T)
     fun error(error: String)

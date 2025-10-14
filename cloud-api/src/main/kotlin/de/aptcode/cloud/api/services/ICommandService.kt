@@ -1,6 +1,6 @@
 package de.aptcode.cloud.api.services
 
-interface CommandService {
+interface ICommandService {
     val name: String;
     val descriptor: String;
     fun execute(args: List<String>);

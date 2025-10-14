@@ -1,6 +1,6 @@
 package de.aptcode.cloud.api.services
 
-interface BootingService {
+interface IBootingService<T> {
 
     fun boot()
     fun shutdown()
