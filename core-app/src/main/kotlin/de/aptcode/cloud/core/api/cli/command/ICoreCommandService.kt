@@ -1,16 +1,24 @@
 package de.aptcode.cloud.core.api.cli.command
 
+import de.aptcode.cloud.api.services.ICommand
 import de.aptcode.cloud.api.services.ICommandService
 
-class ICoreCommandService: ICommandService {
+class ICoreCommandService(override val commands: Map<String, ICommand>) : ICommandService {
 
-    override val name: String
-        get() = TODO("Not yet implemented")
-    
-    override val descriptor: String
-        get() = TODO("Not yet implemented")
-
-    override fun execute(args: List<String>) {
+    override fun registerCommand(command: ICommand) {
         TODO("Not yet implemented")
     }
+
+    override fun executeCommand(command: ICommand) {
+        TODO("Not yet implemented")
+    }
+
+    override fun getCommand(commandName: String): ICommand {
+        TODO("Not yet implemented")
+    }
+
+    override fun getCommands(commandName: String): Map<String, ICommand> {
+        TODO("Not yet implemented")
+    }
+
 }

@@ -1,6 +1,7 @@
 package de.aptcode.cloud.api.services
 
 import de.aptcode.cloud.api.utils.ConsoleState
+import org.jline.reader.LineReader
 import org.jline.reader.Parser
 import org.jline.terminal.TerminalBuilder
 
@@ -10,6 +11,7 @@ interface IConsoleService {
     val terminal: TerminalBuilder
     val parser: Parser
     val state: ConsoleState
+    val reader: LineReader
 
     // console booting func
     fun boot(): Boolean

@@ -1,10 +1,13 @@
 package de.aptcode.cloud.api.services
 
 interface ICommandService {
-    val name: String;
-    val descriptor: String;
-    fun execute(args: List<String>);
 
-    // Gibt die möglichen Sub-Argumente für Tab-Completion zurück
-    fun tabComplete(args: List<String>): List<String> = emptyList()
+    val commands: Map<String, ICommand>;
+
+    fun registerCommand(command: ICommand)
+    fun executeCommand(command: ICommand)
+
+    fun getCommand(commandName: String): ICommand?
+    fun getCommands(commandName: String): Map<String, ICommand>
+
 }
