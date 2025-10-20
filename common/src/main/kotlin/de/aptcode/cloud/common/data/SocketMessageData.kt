@@ -1,10 +1,10 @@
-package de.aptcode.cloud.api.data
+package de.aptcode.cloud.common.data
 
 import com.google.gson.JsonObject
-import de.aptcode.cloud.api.events.Events
+import de.aptcode.cloud.api.events.SocketEvents
 
 data class SocketMessageData(
-    val event: Events,
+    val event: SocketEvents,
     val data: JsonObject,
     val token: String
 )

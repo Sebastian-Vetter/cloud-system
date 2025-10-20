@@ -1,4 +1,4 @@
-package de.aptcode.cloud.api.data
+package de.aptcode.cloud.common.data
 
 import de.aptcode.cloud.api.utils.ServerTypes
 

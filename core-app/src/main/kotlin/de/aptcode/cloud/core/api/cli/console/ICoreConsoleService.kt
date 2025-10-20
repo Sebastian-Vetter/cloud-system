@@ -1,6 +1,6 @@
 package de.aptcode.cloud.core.api.cli.console
 
-import de.aptcode.cloud.api.services.IConsoleService
+import de.aptcode.cloud.api.services.cli.IConsoleService
 import de.aptcode.cloud.api.utils.ConsoleState
 import org.jline.reader.Parser
 import org.jline.terminal.TerminalBuilder

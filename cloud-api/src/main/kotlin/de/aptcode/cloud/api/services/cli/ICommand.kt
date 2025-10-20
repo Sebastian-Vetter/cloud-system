@@ -1,4 +1,4 @@
-package de.aptcode.cloud.api.services
+package de.aptcode.cloud.api.services.cli
 
 interface ICommand {
     val name: String;

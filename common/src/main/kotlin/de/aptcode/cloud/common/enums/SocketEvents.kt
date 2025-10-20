@@ -1,6 +1,6 @@
-package de.aptcode.cloud.api.events
+package de.aptcode.cloud.common.enums
 
-enum class Events {
+enum class SocketEvents {
 
     START_SERVER,
     STOP_SERVER,

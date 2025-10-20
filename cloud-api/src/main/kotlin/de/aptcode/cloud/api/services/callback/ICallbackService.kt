@@ -1,4 +1,4 @@
-package de.aptcode.cloud.api.services
+package de.aptcode.cloud.api.services.callback
 
 interface ICallbackService<T> {
 

@@ -1,6 +1,6 @@
 package de.aptcode.cloud.core
 
-import de.aptcode.cloud.api.services.IBootingService
+import de.aptcode.cloud.api.services.booting.IBootingService
 
 class CloudCore: IBootingService<CloudCore> {
 

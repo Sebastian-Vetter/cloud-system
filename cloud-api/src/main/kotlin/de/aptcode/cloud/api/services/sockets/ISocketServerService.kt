@@ -1,4 +1,6 @@
-package de.aptcode.cloud.api.services
+package de.aptcode.cloud.api.services.sockets
+
+import de.aptcode.cloud.api.services.callback.ICallbackService
 
 interface ISocketServerService<T> {
 

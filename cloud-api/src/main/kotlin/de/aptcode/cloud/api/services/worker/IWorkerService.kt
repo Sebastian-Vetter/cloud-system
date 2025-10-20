@@ -1,5 +1,6 @@
-package de.aptcode.cloud.api.services
-import de.aptcode.cloud.api.data.ServerVersionData
+package de.aptcode.cloud.api.services.worker
+
+import de.aptcode.cloud.common.data.ServerVersionData
 
 interface IWorkerService {
     // Class parameters

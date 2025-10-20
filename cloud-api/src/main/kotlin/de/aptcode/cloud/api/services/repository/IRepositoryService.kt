@@ -1,4 +1,4 @@
-package de.aptcode.cloud.api.services
+package de.aptcode.cloud.api.services.repository
 
 interface IRepositoryService<Data, Key> {
 

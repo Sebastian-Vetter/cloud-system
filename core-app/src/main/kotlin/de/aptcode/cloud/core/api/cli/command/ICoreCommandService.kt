@@ -1,7 +1,7 @@
 package de.aptcode.cloud.core.api.cli.command
 
-import de.aptcode.cloud.api.services.ICommand
-import de.aptcode.cloud.api.services.ICommandService
+import de.aptcode.cloud.api.services.cli.ICommand
+import de.aptcode.cloud.api.services.cli.ICommandService
 
 class ICoreCommandService(override val commands: Map<String, ICommand>) : ICommandService {
 

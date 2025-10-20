@@ -1,6 +1,7 @@
-package de.aptcode.cloud.api.services
+package de.aptcode.cloud.api.services.cli
 
-import de.aptcode.cloud.api.utils.ConsoleState
+
+import de.aptcode.cloud.common.enums.ConsoleState
 import org.jline.reader.LineReader
 import org.jline.reader.Parser
 import org.jline.terminal.TerminalBuilder

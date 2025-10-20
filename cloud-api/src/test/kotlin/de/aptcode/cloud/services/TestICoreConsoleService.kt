@@ -1,6 +1,6 @@
 package de.aptcode.cloud.services
 
-import de.aptcode.cloud.api.services.IConsoleService
+import de.aptcode.cloud.api.services.cli.IConsoleService
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.jupiter.api.Test

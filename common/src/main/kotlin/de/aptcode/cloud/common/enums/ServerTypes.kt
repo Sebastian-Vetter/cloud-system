@@ -1,4 +1,4 @@
-package de.aptcode.cloud.api.utils
+package de.aptcode.cloud.common.enums
 
 enum class ServerTypes {
 
