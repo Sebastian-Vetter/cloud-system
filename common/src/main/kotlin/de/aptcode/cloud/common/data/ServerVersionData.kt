@@ -1,6 +1,6 @@
 package de.aptcode.cloud.common.data
 
-import de.aptcode.cloud.api.utils.ServerTypes
+import de.aptcode.cloud.common.enums.ServerTypes
 
 data class ServerVersionData(
     val version: String,
