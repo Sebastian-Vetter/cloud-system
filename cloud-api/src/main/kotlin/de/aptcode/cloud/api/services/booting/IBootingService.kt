@@ -5,6 +5,6 @@ import de.aptcode.cloud.api.services.callback.ICallbackService
 interface IBootingService<T> {
 
     fun boot(callback: ICallbackService<T>)
-    fun shutdown()
+    fun shutdown(callback: ICallbackService<T>)
 
 }

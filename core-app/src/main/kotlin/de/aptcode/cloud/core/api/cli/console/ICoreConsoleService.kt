@@ -1,7 +1,7 @@
 package de.aptcode.cloud.core.api.cli.console
 
 import de.aptcode.cloud.api.services.cli.IConsoleService
-import de.aptcode.cloud.api.utils.ConsoleState
+import de.aptcode.cloud.common.enums.ConsoleState
 import org.jline.reader.Parser
 import org.jline.terminal.TerminalBuilder
 
